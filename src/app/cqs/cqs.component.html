@@ -1,0 +1,39 @@
+
+<h1>cqs works</h1>
+
+ <div class="tab">
+  <button class="tablinks1" (click)="(content)">Content-List</button>
+  <button class="tablinks" (click)="openCity(event, 'mostpopular')">Most Popular</button>
+  <button class="tablinks" (click)="openCity(event, 'Categories')">Categories</button>
+  <button class="tablinks" (click)="openCity(event, 'Search')">Search</button>
+  <button class="tablinks" (click)="openCity(event, 'View Again')">View Again</button>
+  <button class="tablinks" (click)="openCity(event, 'MyList')">My List</button>
+</div>
+
+<div id="content" class="tabcontent">
+<h3>CQS</h3>
+  <p>CQS Drill down</p>
+</div>
+
+<div id="mostpopular" class="tabcontent">
+  <h3>Most Popular</h3>
+  <p>CQS Drill down</p> 
+</div>
+
+<div id="Categories" class="tabcontent">
+  <h3>Categories</h3>
+  <p>CQS Drill down</p>
+</div>
+<div id="Search" class="tabcontent">
+  <h3>Search</h3>
+  <p>CQS Drill down</p>
+</div>
+<div id="View Again" class="tabcontent">
+  <h3>View Again</h3>
+  <p>CQS Drill down</p>
+</div>
+<div id="MyList" class="tabcontent">
+  <h3>My List</h3>
+  <p>CQS Drill down</p>
+</div>
+<router-outlet></router-outlet>

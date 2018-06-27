@@ -1,0 +1,8 @@
+{
+  "DZ_CONTENT_NM":"CQS",
+  "DZ_CONTENT_DESC":"Application",
+  "DZ_CONTENT_URL":"CQS",
+  "START_DATE": "25/06/2018",
+  "END_DATE": "25/12/2018",
+  "ContentFile":"./config/content.json"
+}
